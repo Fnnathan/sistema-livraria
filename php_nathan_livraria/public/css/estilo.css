@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+.login {
+  text-align: center;
+  margin-top: 16%;
+  align-items: center;
+  font-family: 'Cinzel Decorative', serif;
+
+
+
+}
+
+
+.fundo {
+  background-color: #456c56;
+  /* cor da imagem*/
+  width: 100%;
+  height: 100%;
+  font-family: 'Cinzel Decorative';
+}
+
+#formgeral {
+  position: absolute;
+
+}
+
+
+b {
+  font-family: 'Cinzel Decorative';
+  color: #e4bc7f;
+
+}
+
+.button {
+  background-color: #e4bc7f;
+  /* Cor de fundo verde */
+  border: none;
+  /* Remove a borda padrão */
+  color: #345457;
+  /* Cor do texto */
+  padding: 10px 22px;
+  /* Espaçamento interno */
+  text-align: center;
+  /* Alinha o texto ao centro */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  display: inline-block;
+  /* Permite definir largura e altura */
+  font-size: 12px;
+  /* Tamanho da fonte */
+  margin: 4px 2px;
+  /* Espaçamento externo */
+  border-radius: 5%;
+  font-family: 'Cinzel Decorative';
+}
+
+.button:hover {
+  background-color: #e7b365;
+  color: #c5fcff;
+  border-radius: 10%;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+  font-family: 'Cinzel Decorative';
+}
+
+.quadradinho {
+  background-color: #fff7d1;
+
+}
+
+.fotocliente {
+  background-image: url('../assets/Livroaberto.png');
+  background-position-y: 12%;
+  background-size: cover;
+  /* Faz com que a imagem cubra toda a área */
+  background-repeat: no-repeat;
+  /* Evita que a imagem se repita */
+  background-color: #072520
+}
+
+.fotolivro {
+  background-image: url('../assets/Livroaberto.png');
+  background-position-y: 17%;
+  background-size: cover;
+  /* Faz com que a imagem cubra toda a área */
+  background-repeat: no-repeat;
+  /* Evita que a imagem se repita */
+  background-color: #072520
+}
+
+.fotofuncionario {
+  background-image: url('../assets/Livroaberto.png');
+  background-position-y: 12%;
+  background-size: cover;
+  /* Faz com que a imagem cubra toda a área */
+  background-repeat: no-repeat;
+  /* Evita que a imagem se repita */
+  background-color: #072520
+}
+
+.fotoemprestimo {
+  background-image: url('../assets/Livroaberto.png');
+  background-position-y: 5%;
+  background-size: cover;
+  /* Faz com que a imagem cubra toda a área */
+  background-repeat: no-repeat;
+  /* Evita que a imagem se repita */
+  background-color: #072520;
+
+
+}
+
+
+.cadastro {
+  position: relative;
+
+  margin-left: 20%;
+  margin-right: 50%;
+  width: 15%;
+  height: 20%;
+}
+
+
+a:hover {
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+
+}
+
+.inicio {
+  align-items: center;
+  text-align: center;
+  margin-top: 11%;
+
+}
+
+.fundoestante {
+  background-color: #072520;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/estante.png");
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+
+}
+
+h2 {
+  color: #072520;
+  font-family: 'Cinzel Decorative';
+
+}
+
+h1 {
+  font-family: 'Cinzel Decorative';
+  color: #c5fcff;
+
+}
+
+
+
+
+.button-link:hover {
+
+  color: #e7b365;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+
+}
+
+#cadastros {
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.indexaum {
+
+  background-image: url('../assets/fundoINICIO.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
+
+#registrar {
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+  color: #e4bc7f;
+}
+
+
+#registrar:hover {
+  color: #c5fcff;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15rem;
+
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+
+
+
+
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 51rem;
+  /* Should be removed. Only for demonstration */
+
+
+
+
+}
+
+/* Left column */
+.column.side {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 17rem;
+  padding: 0;
+
+
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 84rem;
+
+
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 768px) {
+  body {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+  }
+}
+
+.iframeinteiro {
+  width: 100%;
+  height: 100%;
+}
+
+.sem-rolagem {
+  overflow: hidden;
+}
+
+.back {
+  background-color: #072520;
+}
+
+footer {
+  width: 100%;
+  background-color: #072520;
+
+}
+
+#footer_logo {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+
+}
+
+#footer_social_media .footer-link {
+  height: 4rem;
+  width: 4rem;
+  color: #e4bc7f;
+  border-radius: 50%;
+
+}
+
+#footer_social_media .footer-link:hover {
+  color: #c5fcff;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+
+}
+
+#footer_social_media .footer-link i {
+  font-size: 1.7rem;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: #456c56;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 384px) {
+  body {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+#header_livros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #051b18;
+height: 15rem;
+
+
+
+
+
+}
+
+#header_link1 {
+  background-color: #072520;
+  height: 14rem;
+
+}
+
+#header_link2 {
+  background-color: #072520;
+  height: 14rem;
+
+}
+
+#header_link3 {
+  background-color: #072520;
+  height: 14rem;
+
+}
+
+
+
+
+
+.header_link_livro img {
+  height: 14rem;
+  width: 14rem;
+
+
+
+
+}
+
+.header_link_livro img:hover {
+  opacity: 0.7;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+
+
+}
+
+
+#encerrar_sessão {
+  text-align: right;
+  align-items: right;
+  padding-top: 10.7rem;
+  padding-right: 0.5rem;
+  background-color: #072520;
+  text-decoration: none;
+  height: 14rem;
+  /* Remove o sublinhado do link */
+}
+
+
+
+#encerrar_sessão i {
+  width: 1rem;
+  height: 1rem;
+
+
+
+}
+
+
+.headerlinks {
+  text-align: left;
+  justify-content: left;
+  justify-items: left;
+
+}
+
+#header_link1 {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+
+}
+
+#header_link2 {
+
+  padding-top: 0.5rem;
+
+}
+
+
+.button_header {
+  display: inline-block;
+  background-image: url('../assets/Livrinhos.png');
+  /* Coloca a imagem como fundo */
+  background-size: cover;
+  /* Ajusta a imagem ao tamanho do botão */
+  width: 250px;
+  /* Largura do botão */
+  height: 180px;
+  /* Altura do botão */
+  text-align: center;
+  /* Centraliza o texto horizontalmente */
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  color: #c5fcff;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+  font-size: 17px;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito no texto */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  transition: opacity 0.3s ease;
+  /* Efeito suave ao passar o mouse */
+}
+
+
+.button_header:hover {
+  opacity: 0.7;
+
+  color: #e4bc7f;
+  /* Texto e ícone ficam verde no hover */
+}
+
+h4 {
+  font-family: 'Cinzel Decorative';
+
+}
+
+#organizar_emprestimo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+#emprestimo1 {
+  position: relative;
+  padding-left: 17rem;
+  padding-top: 5rem;
+  margin-left: 5%;
+  margin-right: 50%;
+  width: 50%;
+  height: 10%;
+
+}
+
+#emprestimo2 {
+  padding-left: 29.5rem;
+  padding-top: 12.5rem;
+
+
+}
+
+.button_side {
+  display: inline-block;
+  background-image: url('../assets/Livrinhos.png');
+  /* Coloca a imagem como fundo */
+  background-size: cover;
+  /* Ajusta a imagem ao tamanho do botão */
+  width: 250px;
+  /* Largura do botão */
+  height: 250px;
+  /* Altura do botão */
+  text-align: center;
+  /* Centraliza o texto horizontalmente */
+  line-height: 150px;
+  /* Alinha verticalmente o texto */
+  color: #c5fcff;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+  font-size: 14px;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito no texto */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  transition: opacity 0.3s ease;
+  /* Efeito suave ao passar o mouse */
+}
+
+
+.button_side:hover {
+  opacity: 0.7;
+
+  color: #e4bc7f;
+  /* Texto e ícone ficam verde no hover */
+}
+
+.back2 {
+  background-color: #456c56;
+}
+
+p {
+  font-family: 'Cinzel Decorative';
+
+}
+
+.pesquisa {
+  padding: 1rem;
+  background-color: #456c56;
+  font-family: 'Cinzel Decorative';
+}
+
+#footer_voltar {
+  display: flex;
+  justify-content: center;
+  background-color: #051b18;
+
+}
+
+.voltar1 {
+  background-color: #0a352e;
+  height: 20rem;
+  padding: 1rem;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+
+}
+
+.voltar2 {
+  background-color: #051b18;
+  height: 0.5rem;
+}
+
+
+.button_footer {
+  background-color: #0a352e;
+  /* Cor de fundo verde */
+  border: none;
+  /* Remove a borda padrão */
+  color: #c5fcff;
+  /* Cor do texto */
+  padding: 10px 22px;
+  /* Espaçamento interno */
+  text-align: center;
+  /* Alinha o texto ao centro */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  display: inline-block;
+  /* Permite definir largura e altura */
+  font-size: 14px;
+  /* Tamanho da fonte */
+  margin: 4px 2px;
+  /* Espaçamento externo */
+  border-radius: 5%;
+  font-family: 'Cinzel Decorative';
+  width: 100%;
+  height: 3rem;
+}
+
+.button_footer:hover {
+  background-color: #0d463c;
+  transition: opacity 0.3s ease;
+  color: #e4bc7f;
+  border-radius: 10%;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+  font-family: 'Cinzel Decorative';
+}
+
+.voltar3 {
+  background-color: #072520;
+  height: 27rem;
+
+}
+
+.voltar4 {
+  background-color: #568a6c;
+  height: 0.7rem;
+}
+
+h3 {
+  color: #456c56;
+  font-family: 'Cinzel Decorative';
+
+}
+
+.linkfalso {
+  color: #456c56;
+  text-decoration: none;
+  font-family: 'Cinzel Decorative';
+}
+
+.linkfalso:hover {
+  color: #e4bc7f;
+  text-decoration: underline;
+  font-family: 'Cinzel Decorative';
+}
+
+.button_side_livros {
+  display: inline-block;
+  background-image: url('../assets/livro.png');
+  /* Coloca a imagem como fundo */
+  background-size: cover;
+  /* Ajusta a imagem ao tamanho do botão */
+  width: 250px;
+  /* Largura do botão */
+  height: 150px;
+  /* Altura do botão */
+  text-align: center;
+  /* Centraliza o texto horizontalmente */
+  line-height: 270px;
+  /* Alinha verticalmente o texto */
+ 
+  color: #c5fcff;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado do link */
+  font-size: 14px;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito no texto */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  transition: opacity 0.3s ease;
+  /* Efeito suave ao passar o mouse */
+}
+
+
+.button_side_livros:hover {
+  opacity: 0.7;
+  cursor: url('../assets/cursorBrilho_58x58.png'), pointer;
+  color: #456c56;
+}
+
