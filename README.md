@@ -79,31 +79,31 @@ Abaixo estão algumas das principais interfaces desenvolvidas para o sistema.
 
 ### Página inicial
 
-![Página inicial da Livraria]()
+![Página inicial da Livraria](capturas_livraria/p_inicial.png)
 
 ### Login
 
-![Tela de login]()
+![Tela de login](capturas_livraria/login.png)
 
 ### Registro de usuários
 
-![Tela de registro]()
+![Tela de registro](capturas_livraria/registrar.png)
 
 ### Listagem
 
-![Tela de listagem]()
+![Tela de listagem](capturas_livraria/listagem.png)
 
 ### Cadastro
 
-![Tela de cadastro]()
+![Tela de cadastro](capturas_livraria/cadastro.png)
 
 ### Gerenciamento de empréstimos
 
-![Gerenciamento de empréstimos]()
+![Gerenciamento de empréstimos](capturas_livraria/emprestimo.png)
 
 ### Rodapé
 
-![Rodapé do sistema]()
+![Rodapé do sistema](capturas_livraria/rodape.png)
 
 ## Sobre este repositório
 
